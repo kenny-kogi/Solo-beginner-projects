@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+
+}
+
+body{
+    background-color: grey;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+img{
+    position:relative;
+    left:600px;
+}
+a{
+    padding: 40px;
+    color:whitesmoke;
+    font-size: 30px;
+}

@@ -1,0 +1,73 @@
+.bin{
+    position: absolute;
+    color: white;
+    left: 55px;
+    right: 20px;
+    background-attachment: scroll;
+    overflow: auto;
+    top:30px;
+}
+
+.kenny1{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+
+.mon{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.mint{
+    color:whitesmoke;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+.yose{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 250px;
+
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: skyblue;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: red;
+    color: white;}
+
+
+    .whine{
+        position: relative;
+        top:650px;
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        background-image: url(prime.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }

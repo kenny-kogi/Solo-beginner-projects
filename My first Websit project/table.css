@@ -1,0 +1,57 @@
+.bunch{
+    position: relative;
+    top:650px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-image: url(prime.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.container2{
+    position: relative;
+    top:550px;
+    left: 550px;
+
+}
+
+.frm{
+    padding: 50px;
+}
+
+.form{
+    border-radius: 20px; padding: 10px; border: solid 1px; outline: inherit; width: 400px; margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container2,
+    .frm,
+    .form
+    {
+        font-size: 10px;
+        padding: 10px;
+        width: 200px;
+    }
+}
+
+    .main-nav{
+        display:inline-flex;
+
+    }
+    .bozar{
+        position: relative;
+        top:870px;
+        right: 500px;
+    }
+    .bleach{
+        position: relative;
+        top:650px;
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+       background-color: grey;
+       
+        
+        
+    }

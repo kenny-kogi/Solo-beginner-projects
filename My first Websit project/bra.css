@@ -1,0 +1,269 @@
+div {
+    
+    
+    font-family: Arial;
+}
+.smoky{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    
+
+}
+
+ul {
+  position: fixed;
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    
+
+    
+}
+
+ul li{
+   
+    float: left;
+    width: 180px;
+    height: 20x;
+    opacity: .8;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+ul li a {
+    
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: red;
+}
+
+ul li ul li {
+    display:none;
+}
+
+ul li:hover ul li {
+    display: block
+}
+
+
+
+.poly{
+    height: 300px;
+    top:630px;
+    position:relative;
+    background-image: url(3.jpg);
+}
+h5{
+    position:relative;
+    left:150px;
+    font-size:25px;
+    top:100px;
+    color:white;
+
+}
+
+
+
+.iron{
+    float:left;
+    background-color:white;
+    top:350px;
+}
+
+.footer-wrapper{
+    width:70%;
+    height:auto;
+    min-height:250px;
+    margin:auto;
+    background-image: url(hello.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-ions ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-ions ul li{
+    display: inline-block;
+    margin-right: 2px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.footer-social-ions ul li a{
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+
+.bleach{
+    position: relative;
+    top:2000px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ background-image: url(prime.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+
+
+.grill{
+    position: relative;
+    top:650px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 20px;
+ 
+}
+
+.box{
+    margin: 19px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box:hover{
+box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+background-color: grey;
+}
+
+.box-header{
+    font-size: 20px;
+    color: #097BE2;
+    margin-left: 20px;
+}
+
+.box-content{
+    font-size: 20px;
+    margin-left: 15px;
+  
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	width: 100%s;
+
+}
+
+.container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	animation: animate 16s ease-in-out infinite;
+	background-size: cover;
+
+
+}
+
+.outer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+    
+}
+
+
+.details{
+	top: 50px;
+	
+	
+
+}
+
+.details h1{
+	right: 20px;
+	font-size: 50px;
+	color: white;
+}
+
+.details h2{ color:white;
+	
+	top: 150px;
+
+}
+
+.kenny h2{
+	color:white;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	font-size: 50px;
+}
+
+.kenny h3{
+	color:white;
+	position: absolute;
+	top: 450px;
+	left:50px;
+	
+}
+
+.kenny h4{
+	color: white;
+	position: absolute;
+	top: 450px;
+	right: 50px;
+}
+
+
+@keyframes animate{
+	
+
+	0%,100%{
+		background-image: url(ke.jpg);
+	}
+
+	25%{
+		background-image: url(ken.jpg);
+	}
+
+	50%{
+		background-image: url(kene.jpg);
+	}
+
+	75%{
+		background-image: url(kenet.jpg);
+	}
+
+	100%{
+		background-image: url(keneth.jpg);
+	}
+}
+/*Links*/
+.relbtn{
+    text-decoration: none;
+    border: 3px #097BE2 solid;
+    padding: 5px 30px;
+    border-radius: 3px;
+}
